@@ -1,13 +1,14 @@
 flutter_native_splash:
-  color: "#FFFFFF"
-  color_dark: "#272727"
-  image: assets/logos/charibazar.png
-  image_dark: assets/logos/charibazar.png
+  color: "#24568e"
+  color_dark: "#24568e"
+  image: assets/logos/chariblue.png
+  image_dark: assets/logos/chariblue.png
 
   android_12:
-    color: "#FFFFFF"
-    color_dark: "#272727"
-    image: assets/logos/charibazar.png
-    image_dark: assets/logos/charibazar.png
+    color: "#24568e"
+    color_dark: "#24568e"
+    image: assets/logos/chariblue.png
+    image_dark: assets/logos/chariblue.png
 
     web: false
+

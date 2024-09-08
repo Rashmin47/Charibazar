@@ -54,6 +54,8 @@ flutter:
     - assets/logos/
     - assets/icons/
     - assets/images/
+    - assets/images/animations/
+    - assets/images/animations/sammy-line-man-receives-a-mail.png
     - assets/images/on_boarding_images/
 
   #---------------------LOCAL FONTS --------------------------#

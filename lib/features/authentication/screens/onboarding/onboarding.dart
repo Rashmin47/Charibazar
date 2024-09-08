@@ -1,8 +1,8 @@
 import 'package:charibazarapp/features/authentication/controllers.onboarding/onboarding_controller.dart';
-import 'package:charibazarapp/features/authentication/screens.onboarding/widgets/onboarding_dot_navigation.dart';
-import 'package:charibazarapp/features/authentication/screens.onboarding/widgets/onboarding_next_button.dart';
-import 'package:charibazarapp/features/authentication/screens.onboarding/widgets/onboarding_page.dart';
-import 'package:charibazarapp/features/authentication/screens.onboarding/widgets/onboarding_skip.dart';
+import 'package:charibazarapp/features/authentication/screens/onboarding/onboarding%20widgets/onboarding_dot_navigation.dart';
+import 'package:charibazarapp/features/authentication/screens/onboarding/onboarding%20widgets/onboarding_next_button.dart';
+
+import 'package:charibazarapp/features/authentication/screens/onboarding/onboarding%20widgets/onboarding_skip.dart';
 import 'package:charibazarapp/utils/constants/colors.dart';
 import 'package:charibazarapp/utils/constants/image_strings.dart';
 import 'package:charibazarapp/utils/constants/sizes.dart';
@@ -15,6 +15,8 @@ import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:get/get.dart';
+
+import 'onboarding widgets/onboarding_page.dart';
 
 class OnBoardingScreen extends StatelessWidget {
   const OnBoardingScreen({super.key});

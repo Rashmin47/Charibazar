@@ -2,7 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:get/get_rx/get_rx.dart';
 
-import '../screens.onboarding/login/login.dart';
+import '../screens/login/login.dart';
+
+
 
 class OnboardingController extends GetxController {
   static OnboardingController get instance => Get.find();

@@ -1,5 +1,7 @@
+import 'package:charibazarapp/features/authentication/screens/signup.widgets/signup.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 import '../../../../utils/constants/sizes.dart';
@@ -59,7 +61,7 @@ class LoginForm extends StatelessWidget {
           const SizedBox(height: TSizes.spaceBtwItems),
 
           /// Create Account Section
-          SizedBox(width: double.infinity, child : OutlinedButton(onPressed: (){}, child: const Text(TTexts.createAccount))),
+          SizedBox(width: double.infinity, child : OutlinedButton(onPressed: () => Get.to(() => const SignupScreen()), child: const Text(TTexts.createAccount))),
 
 
         ],
