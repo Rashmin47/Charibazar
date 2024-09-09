@@ -2,6 +2,7 @@ import 'package:charibazarapp/features/authentication/screens/onboarding/onboard
 import 'package:charibazarapp/utils/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+/// use this class to setup themes, initial Bindings, any animations and much more using Material widget.
 class App extends StatelessWidget {
   const App({super.key});
 

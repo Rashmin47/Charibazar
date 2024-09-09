@@ -55,6 +55,7 @@ flutter:
     - assets/icons/
     - assets/images/
     - assets/images/animations/
+    - assets/icons/categories
     - assets/images/animations/sammy-line-man-receives-a-mail.png
     - assets/images/on_boarding_images/
 

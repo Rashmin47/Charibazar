@@ -12,7 +12,7 @@ import '../../../../utils/constants/image_strings.dart';
 import '../../../../utils/constants/sizes.dart';
 import '../../../../utils/constants/text_strings.dart';
 import '../../screens.onboarding/widgets/SocialButtons.dart';
-import '../../screens.onboarding/widgets/login_form.dart';
+import 'widgets/login_form.dart';
 
 
 class LoginScreen extends StatelessWidget {
