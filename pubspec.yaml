@@ -21,6 +21,7 @@ dependencies:
   url_launcher: ^6.1.12
   flutter_native_splash: ^2.4.1
   smooth_page_indicator: ^1.2.0+3
+  carousel_slider: ^5.0.0
 
 
 
@@ -53,9 +54,11 @@ flutter:
   assets:
     - assets/logos/
     - assets/icons/
-    - assets/images/
+    - assets/icons/brands/
+    - assets/images/banners/
+    - assets/images/banners/banner_1.jpg
     - assets/images/animations/
-    - assets/icons/categories
+    - assets/icons/categories/
     - assets/images/animations/sammy-line-man-receives-a-mail.png
     - assets/images/on_boarding_images/
 
