@@ -34,6 +34,7 @@ class TImages {
   static const String hermanMillerLogo = "assets/icons/brands/herman-miller-logo.png";
   static const String ikeaLogo = "assets/icons/brands/ikea_logo.png";
   static const String acerlogo = "assets/icons/brands/acer_logo.png";
+  static const String diamond = "assets/icons/brands/diamond.png";
 
   // -- Animations
   static const String productsIllustration = "assets/images/animations/sammy-line-workout.gif";
@@ -50,8 +51,8 @@ class TImages {
 
   // -- Products
   static const String productImage1 = "assets/images/products/freefire.png";
-  static const String productImage2 = "assets/images/products/product-1.png";
-  static const String productImage3 = "assets/images/products/product-jacket.png";
+  static const String productImage2 = "assets/images/products/coc.png";
+  static const String productImage3 = "assets/images/products/pubg.png";
   static const String productImage4 = "assets/images/products/product-jeans.png";
   static const String productImage5 = "assets/images/products/product-shirt.png";
   static const String productImage6 = "assets/images/products/product-slippers.png";

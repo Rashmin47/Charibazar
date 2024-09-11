@@ -1,6 +1,5 @@
 import 'package:charibazarapp/features/authentication/screens/password_configuration/forget_password.dart';
 import 'package:charibazarapp/features/authentication/screens/signup.widgets/signup.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
@@ -23,7 +22,7 @@ class LoginForm extends StatelessWidget {
           children: [
             /// Email
             TextFormField(
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                   prefixIcon: Icon(Iconsax.direct_right),
                   labelText: TTexts.email),
             ),

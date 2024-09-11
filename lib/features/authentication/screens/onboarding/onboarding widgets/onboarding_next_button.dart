@@ -1,5 +1,4 @@
 import 'package:charibazarapp/features/authentication/controllers.onboarding/onboarding_controller.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 
@@ -21,8 +20,8 @@ class OnBoardingNextButton extends StatelessWidget {
       bottom: TDeviceUtils.getBottomNavigationBarHeight(),
       child: ElevatedButton(
         onPressed: () => OnboardingController.instance.nextPage(),
-        style: ElevatedButton.styleFrom(shape: CircleBorder(), backgroundColor: dark ? TColors.primary : Colors.black),
-        child: Icon(Iconsax.arrow_right_3),
+        style: ElevatedButton.styleFrom(shape: const CircleBorder(), backgroundColor: dark ? TColors.primary : Colors.black),
+        child: const Icon(Iconsax.arrow_right_3),
       ),
     );
   }

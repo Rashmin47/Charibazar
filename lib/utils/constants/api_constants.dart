@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 /* -- LIST OF Constants used in APIs -- */
 
 // Example

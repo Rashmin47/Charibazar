@@ -3,17 +3,9 @@ import 'package:charibazarapp/features/authentication/screens/onboarding/onboard
 import 'package:charibazarapp/features/authentication/screens/onboarding/onboarding%20widgets/onboarding_next_button.dart';
 
 import 'package:charibazarapp/features/authentication/screens/onboarding/onboarding%20widgets/onboarding_skip.dart';
-import 'package:charibazarapp/utils/constants/colors.dart';
 import 'package:charibazarapp/utils/constants/image_strings.dart';
-import 'package:charibazarapp/utils/constants/sizes.dart';
 import 'package:charibazarapp/utils/constants/text_strings.dart';
-import 'package:charibazarapp/utils/device/device_utility.dart';
-import 'package:charibazarapp/utils/helpers/helper_functions.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:iconsax/iconsax.dart';
-import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:get/get.dart';
 
 import 'onboarding widgets/onboarding_page.dart';
@@ -48,7 +40,7 @@ class OnBoardingScreen extends StatelessWidget {
           const OnBoardingNavigation(),
 
           /// Circular Button
-          OnBoardingNextButton(),
+          const OnBoardingNextButton(),
 
         ],
           ),
