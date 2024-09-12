@@ -35,6 +35,9 @@ class TImages {
   static const String ikeaLogo = "assets/icons/brands/ikea_logo.png";
   static const String acerlogo = "assets/icons/brands/acer_logo.png";
   static const String diamond = "assets/icons/brands/diamond.png";
+  static const String supercell = "assets/icons/brands/supercell.png";
+  static const String garena = "assets/icons/brands/garena.png";
+  static const String krafton = "assets/icons/brands/krafton.png";
 
   // -- Animations
   static const String productsIllustration = "assets/images/animations/sammy-line-workout.gif";
@@ -127,6 +130,8 @@ class TImages {
   static const String productImage75 = "assets/images/products/slipper-product-2.png";
   static const String productImage76 = "assets/images/products/slipper-product-3.png";
   static const String productImage77= "assets/images/products/slipper-product.png";
+  static const String productImage78= "assets/images/products/goldpass.png";
+  static const String productImage79= "assets/images/products/eventpass.png";
 
 
 
