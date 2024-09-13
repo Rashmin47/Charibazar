@@ -37,6 +37,7 @@ dependencies:
   # Product Specific
   readmore: ^3.0.0
   carousel_slider: ^5.0.0
+  flutter_rating_bar: ^4.0.1
 
 
 
@@ -58,9 +59,11 @@ flutter:
     - assets/images/content/
     - assets/icons/
     - assets/icons/brands/
+    - assets/icons/payment_methods/
     - assets/images/banners/
     - assets/images/products/
     - assets/images/animations/
+    - assets/images/reviews/
     - assets/icons/categories/
     - assets/images/animations/sammy-line-man-receives-a-mail.png
     - assets/images/on_boarding_images/
