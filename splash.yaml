@@ -1,0 +1,14 @@
+flutter_native_splash:
+  color: "#24568e"
+  color_dark: "#24568e"
+  image: assets/logos/charibluesplash.png
+  image_dark: assets/logos/charibluesplash.png
+
+  android_12:
+    color: "#24568e"
+    color_dark: "#24568e"
+    image: assets/logos/charibluesplash.png
+    image_dark: assets/logos/charibluesplash.png
+
+    web: false
+
