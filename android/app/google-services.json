@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "508918153243",
+    "project_id": "charibazarapp",
+    "storage_bucket": "charibazarapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508918153243:android:baff31b52d2f21501338be",
+        "android_client_info": {
+          "package_name": "com.example.charibazarapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508918153243-armbpsatr5pcj9vdmhoqoce8m5rklkud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.charibazarapp",
+            "certificate_hash": "59136a72308d777e992901981d7d9b44146cb208"
+          }
+        },
+        {
+          "client_id": "508918153243-2astechkbr2n0j3gik588pq4m00tka58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF_GnLNs5XSyGOUOz-2iTY17Mh7e7dR9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508918153243-2astechkbr2n0j3gik588pq4m00tka58.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "508918153243-ab9tpsv4m103lfg9pnbce2lje8h7mkgl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.charibazarapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
