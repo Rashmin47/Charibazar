@@ -4,6 +4,7 @@ import 'package:charibazarapp/common/widgets/list_tiles/settings_menu_tile.dart'
 import 'package:charibazarapp/common/widgets/texts/section_heading.dart';
 import 'package:charibazarapp/features/personalization/screens/address/address.dart';
 import 'package:charibazarapp/features/personalization/screens/profile/profile.dart';
+import 'package:charibazarapp/features/shop/screens/cart/cart.dart';
 import 'package:charibazarapp/features/shop/screens/order/order.dart';
 import 'package:charibazarapp/utils/constants/colors.dart';
 import 'package:charibazarapp/utils/constants/sizes.dart';
@@ -53,7 +54,7 @@ class SettingsScreen extends StatelessWidget {
 
                   SettingsMenuTile(icon: Iconsax.safe_home, title: 'My Addresses', subTitle: 'Set Delivery Address', onTap: () => Get.to(() =>  const UserAddressScreen()),
                   ),
-                  SettingsMenuTile(icon: Iconsax.shopping_cart, title: 'My Cart', subTitle: 'Add, Remove Products and Move to Checkout', onTap: () {}),
+                  SettingsMenuTile(icon: Iconsax.shopping_cart, title: 'My Cart', subTitle: 'Add, Remove Products and Move to Checkout', onTap: () => Get.to(() => const CartScreen())),
                   SettingsMenuTile(icon: Iconsax.bag_tick, title: 'My Orders', subTitle: 'In-Progress and Completed Orders', onTap: () => Get.to(() => const OrderScreen()),
                   ),
                   SettingsMenuTile(icon: Iconsax.bank, title: 'Bank Account', subTitle: 'Withdraw balance to Registered Bank Account', onTap: () {}),

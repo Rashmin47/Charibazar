@@ -32,7 +32,7 @@ class BrandCard extends StatelessWidget {
             /// Icon
             Flexible(
               child: CircularImage(
-                image: TImages.clothIcon,
+                image: TImages.supercell,
                 isNetworkImage: false,
                 backgroundColor: Colors.transparent,
                 overlayColor:

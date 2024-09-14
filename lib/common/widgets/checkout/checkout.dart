@@ -9,7 +9,6 @@ import 'package:charibazarapp/utils/constants/image_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/material.dart%20';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 
 import '../../../utils/constants/colors.dart';
 import '../../../utils/constants/sizes.dart';
@@ -45,7 +44,7 @@ class CheckoutScreen extends StatelessWidget {
               showBorder: true,
               backgroundColor: dark ? TColors.black : TColors.white,
               child: const Padding(padding: EdgeInsets.all(TSizes.md),
-              child: const Column(
+              child: Column(
                 children: [
                   /// Pricing
                   BillingAmountSection(),
@@ -76,7 +75,7 @@ class CheckoutScreen extends StatelessWidget {
             subTitle: 'Your Item will be delivered shortly!',
             onPressed: () => Get.to(() => const NavigationMenu())
         ),
-        ), child: const Text('Checkout \Rs 250')),
+        ), child: const Text('Checkout Rs 250')),
       ),
     );
   }

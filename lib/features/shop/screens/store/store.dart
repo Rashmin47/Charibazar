@@ -4,9 +4,11 @@ import 'package:charibazarapp/common/widgets/layouts/grid_layout.dart';
 import 'package:charibazarapp/common/widgets/products.cart/cart_menu_icon.dart';
 import 'package:charibazarapp/common/widgets/texts/section_heading.dart';
 import 'package:charibazarapp/common/widgets/brands/brand_card.dart';
+import 'package:charibazarapp/features/shop/screens/brand/all_brands.dart';
 import 'package:charibazarapp/features/shop/screens/store/widgets/category_tab.dart';
 import 'package:charibazarapp/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 import '../../../../common/widgets/appbar/tabbar.dart';
 import '../../../../utils/constants/colors.dart';
@@ -57,7 +59,7 @@ class StoreScreen extends StatelessWidget {
 
                         /// Featured Brands
                         SectionHeading(
-                            title: 'Featured Brands', onPressed: () {}),
+                            title: 'Featured Brands', onPressed: () => Get.to(() => const AllBrandsScreen()),),
                         const SizedBox(height: TSizes.spaceBtwItems / 1.5),
 
                         /// Brands Grid

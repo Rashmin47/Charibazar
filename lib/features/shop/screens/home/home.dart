@@ -1,8 +1,10 @@
 import 'package:charibazarapp/common/widgets/products/products_cards/product_card_vertical.dart';
+import 'package:charibazarapp/features/shop/screens/all_products/all_products.dart';
 import 'package:charibazarapp/features/shop/screens/home/widgets/home_appbar.dart';
 import 'package:charibazarapp/features/shop/screens/home/widgets/home_categories.dart';
 import 'package:charibazarapp/features/shop/screens/home/widgets/promo_slider.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 import '../../../../common/widgets/custom_shapes/containers/primary_header_container.dart';
 import '../../../../common/widgets/custom_shapes/containers/search_container.dart';
@@ -66,7 +68,7 @@ class HomeScreen extends StatelessWidget {
                   const SizedBox(height: TSizes.spaceBtwSections),
 
                   /// Heading
-                   SectionHeading(title: 'Popular Products', onPressed: (){}),
+                   SectionHeading(title: 'Popular Products', onPressed: () => Get.to(() => const AllProducts())),
                   const SizedBox(height: TSizes.spaceBtwItems),
 
                   /// Popular Products
