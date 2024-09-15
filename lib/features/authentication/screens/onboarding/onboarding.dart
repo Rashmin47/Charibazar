@@ -1,4 +1,4 @@
-import 'package:charibazarapp/features/authentication/controllers.onboarding/onboarding_controller.dart';
+
 import 'package:charibazarapp/features/authentication/screens/onboarding/onboarding%20widgets/onboarding_dot_navigation.dart';
 import 'package:charibazarapp/features/authentication/screens/onboarding/onboarding%20widgets/onboarding_next_button.dart';
 
@@ -8,6 +8,7 @@ import 'package:charibazarapp/utils/constants/text_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../../controllers/onboarding_controller.dart';
 import 'onboarding widgets/onboarding_page.dart';
 
 class OnBoardingScreen extends StatelessWidget {

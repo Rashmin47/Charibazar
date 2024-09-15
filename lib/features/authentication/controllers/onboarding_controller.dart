@@ -31,7 +31,8 @@ class OnboardingController extends GetxController {
        print(storage.read('IsFirstTime'));
      }
 
-     storage.writeIfNull('IsFirstTime', false);
+     storage.write('IsFirstTime', false);
+
      if (kDebugMode) {
        print('=================== GET STORAGE Next Button ===================');
        print(storage.read('IsFirstTime'));
