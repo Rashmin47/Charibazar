@@ -33,10 +33,20 @@ class SignupController extends GetxController {
 
     // Check Internet Connectivity
     final isConnected = await NetworkManager.instance.isConnected();
-    if (!isConnected) return;
+    if (!isConnected) {
+      // Remove Loader
+      FullScreenLoader.stopLoading();
+      return;
+    }
+
+
 
     // Form Validation
-    if(!signupFormKey.currentState!.validate()) return;
+    if(!signupFormKey.currentState!.validate()) {
+      // Remove Loader
+      FullScreenLoader.stopLoading();
+      return;
+    }
 
     // Privacy Policy Check
     if (!privacyPolicy.value) {
@@ -64,18 +74,20 @@ class SignupController extends GetxController {
     final userRepository = Get.put(UserRepository());
     await userRepository.saveUserRecord(newUser);
 
+    // Remove Loader
+    FullScreenLoader.stopLoading();
 
     // Show Success Message
     Loaders.successSnackBar(title: 'Congratulations', message: 'Your account has been created! Verify email to continue');
-    // Move to Verify Email Screen
-    Get.to(() => const VerifyEmailScreen());
 
+    // Move to Verify Email Screen
+    Get.to(() =>  VerifyEmailScreen(email: email.text.trim()));
   } catch(e) {
-    // Show Some Generic Error to the user
-    Loaders.errorSnackBar(title: 'Oh Snap', message: e.toString());
-  } finally {
     // Remove Loader
     FullScreenLoader.stopLoading();
+
+    // Show Some Generic Error to the user
+    Loaders.errorSnackBar(title: 'Oh Snap', message: e.toString());
+  }
   }
     }
-}

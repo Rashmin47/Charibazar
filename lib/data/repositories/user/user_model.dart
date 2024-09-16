@@ -1,6 +1,5 @@
 import 'package:charibazarapp/utils/formatters/formatter.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter/material.dart';
 
 /// Model class repreasneting user data.
 class UserModel{
@@ -36,7 +35,7 @@ String get formattedPhoneNo => TFormatter.formatPhoneNumber(phoneNumber);
 static List<String> nameParts(fullName) => fullName.split(" ");
 
   /// Static function to generate a  username from the full name.
-  static List<String> generateUsername(fullName) {
+  static String generateUsername(fullName) {
     List<String> nameParts = fullName.split(" ");
     String firstName = nameParts[0].toLowerCase();
     String lastName = nameParts.length > 1 ? nameParts[1].toLowerCase() : "";
@@ -74,6 +73,10 @@ static List<String> nameParts(fullName) => fullName.split(" ");
           phoneNumber: data['PhoneNumber'] ?? '',
           profilePicture: data['ProfilePicture'] ?? '',
         );
+      }
+      else
+      {
+        return UserModel.empty();
       }
     }
   }
