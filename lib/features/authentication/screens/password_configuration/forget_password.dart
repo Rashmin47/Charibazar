@@ -1,11 +1,9 @@
 import 'package:charibazarapp/features/authentication/controllers/forget_password/forget_password_controller.dart';
-import 'package:charibazarapp/features/authentication/screens/password_configuration/reset_password.dart';
 import 'package:charibazarapp/utils/validators/validation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
-import '../../../../common/widgets/appbar/appbar.dart';
 import '../../../../utils/constants/sizes.dart';
 import '../../../../utils/constants/text_strings.dart';
 class ForgetPassword extends StatelessWidget {
